@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import style from "./NavLinks.module.css";
 
 const NavLinks = () => {
@@ -5,10 +6,10 @@ const NavLinks = () => {
     <div className={style.nav_container}>
       <nav>
         <ul className={style.nav_links_container}>
-          <li>Inicio</li>
-          <li>Sobre Nosotros</li>
-          <li>Contacto</li>
-          <li>Catalogo</li>
+          <NavLink className={style.nav_link} to={"/"}>Inicio</NavLink>
+          <NavLink className={style.nav_link} to={"/sobre-nosotros"}>Sobre Nosotros</NavLink>
+          <NavLink className={style.nav_link} to={"/contacto"}>Contacto</NavLink>
+          <NavLink className={style.nav_link} to={"/catalogo"}>Catalogo</NavLink>
         </ul>
       </nav>
     </div>
