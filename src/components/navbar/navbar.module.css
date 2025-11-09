@@ -1,0 +1,7 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100px;
+  background-color: #333333;
+  color: #fff;
+}

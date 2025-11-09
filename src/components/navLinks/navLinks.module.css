@@ -1,0 +1,12 @@
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_links_container {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3rem;
+  list-style-type: none;
+}
