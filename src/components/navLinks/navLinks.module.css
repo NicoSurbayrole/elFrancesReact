@@ -1,0 +1,23 @@
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_links_container {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.nav_link{
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  &:hover{
+    background-color: #c69d23;
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
+  }
+}

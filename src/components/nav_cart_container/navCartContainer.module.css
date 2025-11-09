@@ -1,0 +1,50 @@
+.cart_container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.cart_span {
+  display: flex;
+  position: relative;
+}
+
+.cart_input {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  border: none;
+  &:focus {
+    outline: none;
+    border: 2px solid #c69d23;
+  }
+}
+
+.lupa_busqueda {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  height: 1.2rem;
+}
+
+.span_carrito {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.carrito {
+    height: 2rem;
+}
+
+.cantidad_carrito {
+    position: absolute;
+    right: -6px;
+    top: -10px;
+    border-radius: 100%;
+    background-color: #c69d23;
+    padding: .2rem 0.4rem;
+}
