@@ -1,9 +1,11 @@
+import Navbar from "./pages/navBar/Navbar.jsx";
+
 function App() {
 
 
   return (
     <>
-      <h1>Hello World</h1>
+      <Navbar/>
     </>
   )
 }
