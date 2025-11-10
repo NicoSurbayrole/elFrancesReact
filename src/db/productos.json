@@ -1,0 +1,164 @@
+{
+  "descripciones": [
+    {
+      "product_id": "479",
+      "name": "1 Sillón de ratán con armazón de madera lustrada, con dos almohadones.",
+      "price": "200.00",
+      "categori": ["sillon", "sillones"],
+      "image": "../img/productosImg/1img_68855f10b70e8.jpg",
+      "descripcion": "Sillón de ratán con estructura de madera lustrada y dos almohadones; asiento curvo y trenzado natural, look cálido y veraniego."
+    },
+    {
+      "product_id": "468",
+      "name": "2 Sillones caña malaca y ratán giratorios.",
+      "price": "300.00",
+      "categori": ["sillon", "sillones"],
+      "image": "../img/productosImg/2img_688badb22ada0.jpg",
+      "descripcion": "Par de sillones giratorios de caña malaca y ratán; respaldo continuo enrejado y base circular anillada."
+    },
+    {
+      "product_id": "480",
+      "name": "Antiquísimo arcón en madera de pinotea",
+      "price": "250.00",
+      "categori": ["arcos", "arco", "madera"],
+      "image": "../img/productosImg/3img_68855d8bbb377.jpg",
+      "descripcion": "Arcón antiguo de pinotea: caja rectangular robusta con herrajes negros en esquinas y cerradura central."
+    },
+    {
+      "product_id": "395",
+      "name": "Lámpara de 1 luz en porcelana biscuit con 4 personajes de época y pantalla.",
+      "price": "100.00",
+      "categori": ["lamparas", "lampara", "porcelana"],
+      "image": "../img/productosImg/4img_6882a082a41ec.jpg",
+      "descripcion": "Lámpara de mesa con base de porcelana biscuit figurativa (cuatro personajes) y pantalla cilíndrica clara."
+    },
+    {
+      "product_id": "478",
+      "name": "Máscara antigua para esgrima.",
+      "price": "70.00",
+      "categori": ["mascara", "mascaras", "esgrima"],
+      "image": "../img/productosImg/5img_68867eeb6ae38.jpg",
+      "descripcion": "Máscara antigua para esgrima: cúpula metálica de malla con refuerzos y borde de cuero envejecido."
+    },
+    {
+      "product_id": "343",
+      "name": "Pequeña poltrona inglesa para dormitorio tapizada en pana bordeaux con 1 almohadón.",
+      "price": "150.00",
+      "categori": ["poltrona", "poltronas"],
+      "image": "../img/productosImg/6img_6886781f57a54.jpg",
+      "descripcion": "Pequeña poltrona inglesa tapizada en pana bordeaux con almohadón; asiento redondo y patas de madera oscura."
+    },
+    {
+      "product_id": "462",
+      "name": "Barra bar estilo inglés antigua en madera de nogal con tallas y puerta;",
+      "price": "950.00",
+      "categori": ["madera", "barra", "barras"],
+      "image": "../img/productosImg/7img_688b9c8f98acc.jpg",
+      "descripcion": "Barra bar estilo inglés en nogal tallado; cuerpo sólido con puertas y detalles ornamentales clásicos."
+    },
+    {
+      "product_id": "534",
+      "name": "Alfombra Bokhara 1.77 x 1.47 mts",
+      "price": "0.00",
+      "categori": ["alfombra", "alfombras"],
+      "image": "../img/productosImg/8img_687e9e076566c.jpg",
+      "descripcion": "Alfombra Bokhara (1.77 x 1.47 m): motivos geométricos en rojos y azules con bordes múltiples tradicionales."
+    },
+    {
+      "product_id": "535",
+      "name": "Alfombra tribal Beshir tejida a mano 1.65 x 0.87.",
+      "price": "0.00",
+      "categori": ["alfombra", "alfomras"],
+      "image": "../img/productosImg/9img_687ea12926d2a.jpg",
+      "descripcion": "Alfombra tribal Beshir tejida a mano (1.65 x 0.87 m): campo con paneles geométricos y paleta marrón-azulada."
+    },
+    {
+      "product_id": "531",
+      "name": "Alfombra tribal tejida a mano Qashqai.",
+      "price": "0.00",
+      "categori": ["alfombra", "alfomras", "tejida", "mano"],
+      "image": "../img/productosImg/10img_687e90fe3496a.jpg",
+      "descripcion": "Alfombra Qashqai hecha a mano: diseño tribal con medallones repetidos y marco de guardas contrastantes."
+    },
+    {
+      "product_id": "533",
+      "name": "Alfombra Tribal Tekke 1.60 x 1.15 mts",
+      "price": "0.00",
+      "categori": ["alfombra", "alfomras"],
+      "image": "../img/productosImg/11img_687e9a73bdcc5.jpg",
+      "descripcion": "Alfombra Tribal Tekke (1.60 x 1.15 m): patrón clásico de gul turcomano con bordes estrechos decorados."
+    },
+    {
+      "product_id": "532",
+      "name": "Alfombra turcomana Ersari o Tekke tejida a mano.",
+      "price": "0.00",
+      "categori": ["alfombra", "alfomras"],
+      "image": "../img/productosImg/12img_689b892caa357.jpg",
+      "descripcion": "Alfombra turcomana Ersari/Tekke tejida a mano: centro con gules repetidos y tonos castaños rojizos."
+    },
+    {
+      "product_id": "527",
+      "name": "Caja en plata francesa y esmalte. (Gustave Bardies)",
+      "price": "0.00",
+      "categori": ["caja", "cajas", "plata", "gustavo", "bardies"],
+      "image": "../img/productosImg/13img_689b892caa357.jpg",
+      "descripcion": "Pequeña caja francesa en plata con esmalte (Gustave Bardies); pieza de tocador fina y coleccionable."
+    },
+    {
+      "product_id": "542",
+      "name": "Encendedor Cartier modelo \"Diabolo\" en plata 925.",
+      "price": "500.00",
+      "categori": ["encendedor", "encendedores", "plata"],
+      "image": "../img/productosImg/14img_68869724d784f.jpg",
+      "descripcion": "Encendedor Cartier modelo “Diabolo” en plata 925; diseño cilíndrico elegante con acabado brillante."
+    },
+    {
+      "product_id": "42",
+      "name": "Juego de copas de cristal inglés Webb 55 piezas.",
+      "price": "400.00",
+      "categori": ["copas", "cristal", "ingles"],
+      "image": "../img/productosImg/15img_687fd36d240db.jpg",
+      "descripcion": "Juego de copas de cristal inglés Webb (55 piezas); cristal tallado clásico para mesa formal."
+    },
+    {
+      "product_id": "541",
+      "name": "Reloj para dama Baume & Mercier Riviera con malla original combinada.",
+      "price": "400.00",
+      "categori": ["reloj", "relojes"],
+      "image": "../img/productosImg/16img_688691955dc0e.jpg",
+      "descripcion": "Reloj de dama Baume & Mercier Riviera; caja facetada con malla combinada original."
+    },
+    {
+      "product_id": "540",
+      "name": "Reloj Pulsera Must de Cartier Vermeil Quartz.",
+      "price": "1000.00",
+      "categori": ["reloj", "relojes", "pulsera"],
+      "image": "../img/productosImg/17img_68868a8c9c947.jpg",
+      "descripcion": "Reloj pulsera Must de Cartier Vermeil Quartz; esfera clásica y caja bañada en oro."
+    },
+    {
+      "product_id": "37",
+      "name": "10 Sillas asientos desmontables tapizados y respaldo esterillado.",
+      "price": "900.00",
+      "categori": ["silla", "sillas", "desmontable"],
+      "image": "../img/productosImg/18img_688bcf62edd7f.jpg",
+      "descripcion": "Conjunto de 10 sillas con asientos desmontables tapizados y respaldo esterillado; estructura en madera."
+    },
+    {
+      "product_id": "34",
+      "name": "2 Mesas de costado estilo inglés borde festoneado 60 x 60 cm.",
+      "price": "250.00",
+      "categori": ["mesa", "mesas", "ingles"],
+      "image": "../img/productosImg/19img_688122ca0d1b0.jpg",
+      "descripcion": "Par de mesas de costado estilo inglés, borde festoneado (60 x 60 cm); tapa cuadrada con perfil trabajado."
+    },
+    {
+      "product_id": "143",
+      "name": "2 Sillones estilo inglés chippendale.",
+      "price": "250.00",
+      "categori": ["sillon", "sillones", "ingles", "chippendale"],
+      "image": "../img/productosImg/20img_689500453e293.jpg",
+      "descripcion": "Dos sillones estilo inglés Chippendale; madera oscura tallada y tapicería tradicional."
+    }
+  ]
+}
