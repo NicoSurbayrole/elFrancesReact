@@ -1,0 +1,23 @@
+.info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+
+  h2 {
+    font-size: 2.8rem;
+    color: #c69d23;
+    margin-top: 20px;
+    font-weight: 700;
+  }
+
+  p {
+    max-width: 90%;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #333;
+  }
+}

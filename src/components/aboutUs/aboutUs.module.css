@@ -1,0 +1,27 @@
+section {
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  background-color: #fff;
+}
+
+.info_contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid #c69d23;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 8px #1f1f1f;
+  width: 70%;
+}
+
+
+
