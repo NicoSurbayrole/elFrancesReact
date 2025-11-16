@@ -1,0 +1,13 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  background-color: #f8f8f8;
+  padding: 2rem 0;
+}
+
+
+
+
+

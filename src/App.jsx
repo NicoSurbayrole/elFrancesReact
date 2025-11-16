@@ -3,6 +3,7 @@ import Navbar from "./pages/navBar/Navbar.jsx";
 import Products from "./components/products/Products.jsx";
 import NotFound from "./pages/notFound/NotFound.jsx";
 import SobreNosotros from "./pages/sobreNosotros/SobreNosotros.jsx";
+import Contacto from "./pages/contacto/Contacto.jsx";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Products/>} />
         <Route path="/sobre-nosotros" element={<SobreNosotros/>} />
+        <Route path="/contacto" element={<Contacto/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </>
