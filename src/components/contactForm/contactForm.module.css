@@ -1,0 +1,48 @@
+.contact_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f8f8ef;
+  border-radius: 0.2rem;
+  padding: 2rem;
+  label {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  textarea {
+    min-height: 100px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 80%;
+    height: 2rem;
+    padding: 0.4rem;
+    border: 1px solid #e0e0e0;
+    color: #333333;
+    border-radius: 0.2rem;
+
+    &:focus {
+      outline: 1px solid #c69d23;
+    }
+  }
+}
+.btn {
+  margin-top: 1.4rem;
+  width: 80%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #c69d23;
+  color: #fff;
+}

@@ -1,0 +1,48 @@
+.container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #c69d23;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 8px #1f1f1f;
+  background-color: #fff;
+}
+
+.header {
+  height: 50%;
+  margin-bottom: 1.4rem;
+  align-self: flex-start;
+  h1 {
+    position: relative;
+    padding-bottom: 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 2.6rem;
+    color: #c69d23;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 40%;
+      bottom: 0;
+      width: 30%;
+      height: 3px;
+      background-color: #c69d23;
+      border-radius: 4px;
+    }
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    p {
+      font-size: 1.2rem;
+      width: 60%;
+      word-spacing: 6px;
+      text-align: justify;
+      line-height: 1.2;
+      font-weight: 300;
+      color: #666;
+    }
+  }
+}
