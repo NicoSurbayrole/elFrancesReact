@@ -7,21 +7,16 @@
 
 .products_contain {
   display: grid;
-  grid-template-areas: 
-  "filtros productos productos productos productos"
-  "filtros productos productos productos productos"
-  "filtros productos productos productos productos"
-  "filtros productos productos productos productos";
+  grid-template-areas:
+    "filtros productos productos productos productos"
+    "filtros productos productos productos productos"
+    "filtros productos productos productos productos"
+    "filtros productos productos productos productos";
   /* grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)); */
   align-items: center;
   justify-items: center;
   margin: 2rem 0;
   gap: 2rem 0;
-}
-
-.filtros{
-    min-height: 1fr;
-    grid-area: filtros;
 }
 
 .products {
@@ -35,11 +30,11 @@
   width: 300px;
   box-shadow: 0 1px 8px #1f1f1f;
   grid-area: productos;
-    &:hover{
-        cursor: pointer;
-        transform: translateY(-10px);
-        transition: all .5s;
-    }
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.5s;
+  }
 }
 
 .imagen_producto {
