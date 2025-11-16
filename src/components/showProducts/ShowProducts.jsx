@@ -1,4 +1,5 @@
 import style from "./showProducts.module.css";
+import Sidebar from "../sidebar/Sidebar.jsx";
 
 const ShowProducts = ({ items }) => {
   return (
@@ -7,7 +8,7 @@ const ShowProducts = ({ items }) => {
         <h2 className={style.titel_articulos}>Todos los Artículos</h2>
       </header>
       <div className={style.products_contain}>
-        <aside className={style.filtros}></aside>
+        <Sidebar />
         {items.map((item) => (
           <div key={item.product_id}>
             <section accessKey={item.product_id} className={style.products}>
@@ -15,7 +16,7 @@ const ShowProducts = ({ items }) => {
                 <img
                   src={item.imagUrl}
                   className={style.imagen_producto}
-                  alt="producto"
+                  alt={item.name}
                 />
               </header>
               <div className={style.info_products}>
