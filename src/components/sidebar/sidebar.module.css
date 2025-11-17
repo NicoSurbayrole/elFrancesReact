@@ -2,6 +2,7 @@
 .sidebar_container {
   grid-area: filtros;
   height: 100%;
+  padding: 0 2rem;
   aside {
     display: flex;
     flex-direction: column;

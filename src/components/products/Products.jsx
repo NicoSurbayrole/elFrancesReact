@@ -4,7 +4,7 @@ import { app } from "../../firebase/config.js";
 import { fetchItem } from "../../utils/getAllProducts.js";
 import Loading from "../loading/Loading.jsx";
 import NotFound from "../../pages/notFound/NotFound.jsx";
-import ShowProducts from "../showProducts/ShowProducts.jsx";
+import ProductsContainer from "../productsContainer/ProductsContainer.jsx";
 import style from "./products.module.css";
 
 const Products = () => {
@@ -22,7 +22,7 @@ useEffect(() => {
     <main className={style.main}>
         {loading && <Loading fullscreen />}
         {error && <NotFound />}
-        {items && <ShowProducts items={items} />}
+        {items && <ProductsContainer items={items} />}
     </main>
   )
 };
