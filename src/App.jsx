@@ -1,18 +1,18 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./pages/navBar/Navbar.jsx";
-import Products from "./components/products/Products.jsx";
 import NotFound from "./pages/notFound/NotFound.jsx";
 import SobreNosotros from "./pages/sobreNosotros/SobreNosotros.jsx";
 import Contacto from "./pages/contacto/Contacto.jsx";
+import Home from "./pages/home/Home";
 
 function App() {
 
 
   return (
-    <>
+    <> 
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Products/>} />
+        <Route path="/" element={<Home />} />
         <Route path="/sobre-nosotros" element={<SobreNosotros/>} />
         <Route path="/contacto" element={<Contacto/>} />
         <Route path="*" element={<NotFound/>} />
