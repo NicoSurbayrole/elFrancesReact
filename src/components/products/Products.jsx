@@ -21,7 +21,7 @@ useEffect(() => {
   return(
     <main className={style.main}>
         {loading && <Loading fullscreen />}
-        {error && <NotFound />}
+        {error && <NotFound titel={error} />}
         {items && <ProductsContainer items={items} />}
     </main>
   )
