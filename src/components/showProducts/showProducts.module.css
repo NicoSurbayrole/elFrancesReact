@@ -1,0 +1,51 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c79a1b;
+  border-radius: 0.5rem;
+  min-height: 400px;
+  width: 300px;
+  box-shadow: 0 1px 8px #1f1f1f;
+  grid-area: productos;
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 0.5s;
+  }
+
+  .imagen_producto {
+    width: 250px;
+    height: 300px;
+    border-radius: 0.5rem;
+  }
+}
+.info_products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  small {
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 0.3rem;
+    width: 200px;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    border: 1px solid #c79a1b;
+    background-color: #c79a1bee;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     width="64" height="64">
+
+  <!-- Pin de ubicación -->
+  <g fill="none" stroke="#C69D23" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Contorno del pin -->
+    <path d="M32 6
+             C23 6 16 13 16 22
+             C16 32 24 41 29 47
+             L32 52
+             L35 47
+             C40 41 48 32 48 22
+             C48 13 41 6 32 6 Z" />
+
+    <!-- Círculo central -->
+    <circle cx="32" cy="24" r="7"/>
+  </g>
+</svg>
