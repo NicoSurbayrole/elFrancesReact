@@ -3,7 +3,7 @@ import styles from "./error.module.css";
 import martillo from "../../assets/martillo.svg";
 
 import { NavLink } from "react-router-dom";
-const Error = ({ titel }) => {
+const Error = ({ titel = "Error de 404 Pagina no encontrada" }) => {
   return (
     <div className={styles.error_container}>
       <div className={styles.error_info}>
