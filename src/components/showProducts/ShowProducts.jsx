@@ -1,9 +1,15 @@
+import { useNavigate } from "react-router-dom";
 import style from "./showProducts.module.css";
 
 const ShowProducts = ({ items }) => {
+  const navigate = useNavigate();
+
+  const singleProduct = (e) => navigate(`/producto/${e.target.accessKey}`);
+   
+
   return items.map((item) => (
     <div key={item.product_id}>
-      <section accessKey={item.product_id} className={style.products}>
+      <section className={style.products}>
         <header>
           <img
             src={item.imagUrl}
@@ -14,7 +20,7 @@ const ShowProducts = ({ items }) => {
         <div className={style.info_products}>
           <h3>{item.name}</h3>
           <small>{item.price}$usd</small>
-          <button accessKey={item.product_id}>Ver producto</button>
+          <button onClick={singleProduct} accessKey={item.product_id}>Ver producto</button>
         </div>
       </section>
     </div>
