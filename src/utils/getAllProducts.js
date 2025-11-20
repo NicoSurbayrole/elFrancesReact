@@ -12,8 +12,10 @@ export const fetchItem = async (
     const querySnap = await getDocs(itemRef);
     const items = querySnap.docs.map((doc) => doc.data());
     setItems(items);
-  } catch (error) {
-    setError(error);
+  } catch (err) {
+    console.log(err.message);
+     setError(err.message);
+    setItems(null);
   } finally {
     setLoading(false);
   }
