@@ -61,20 +61,24 @@
   }
 }
 
-.links li:hover{
+.navLink {
+  text-decoration: none;
+  color: #999;
+}
+
+.links .navLink:hover {
+  cursor: pointer;
+  color: #c69d23;
+}
+
+.redes img {
+  width: 3rem;
+  &:hover {
+    transform: scale(1.1);
     cursor: pointer;
-    color: #c69d23;
+  }
 }
 
-.redes img{
-    width: 3rem;
-    &:hover{
-       transform: scale(1.1);
-       cursor: pointer;
-    }
+.redes :nth-child(2) {
+  margin-left: 1rem;
 }
-
-.redes :nth-child(2){
-    margin-left: 1rem;
-}
-

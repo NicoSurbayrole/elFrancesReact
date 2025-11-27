@@ -4,6 +4,7 @@ import telefono from "../../assets/telefono.svg";
 import mail from "../../assets/mail.svg";
 import facebook from "../../assets/facebook.svg";
 import instagram from "../../assets/instagram.svg";
+import { NavLink } from "react-router-dom";
 import style from "./footer.module.css";
 
 const Footer = () => {
@@ -19,10 +20,10 @@ const Footer = () => {
         </header>
         <nav>
           <ul className={style.links}>
-            <li>Inicio</li>
-            <li>Sobre Nosotros</li>
-            <li>Contacto</li>
-            <li>Catalogo</li>
+            <li><NavLink className={style.navLink} to={"/"}>Inicio</NavLink></li>
+            <li><NavLink className={style.navLink} to={"/sobre-nosotros"}>Sobre Nosotros</NavLink></li>
+            <li><NavLink className={style.navLink} to={"/contacto"}>Contacto</NavLink></li>
+            <li><NavLink className={style.navLink} to={"/catalogo"}>Catalogo</NavLink></li>
           </ul>
         </nav>
       </div>
