@@ -68,3 +68,9 @@
     color: #33333388;
 }
 }
+
+
+.disabledBtn{
+  pointer-events: none;
+  opacity: 0.5;
+}
