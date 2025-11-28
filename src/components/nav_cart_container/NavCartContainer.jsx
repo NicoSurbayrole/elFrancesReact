@@ -1,8 +1,11 @@
 import serch from "../../assets/serch.svg";
 import carrito from "../../assets/carrito.svg";
 import style from "./navCartContainer.module.css";
+import {useCart} from "../../context/cart/useCart";
 
 const NavCartContainer = () => {
+  const {getTotalProductos} = useCart();
+
   return (
     <div>
       <div className={style.cart_container}>
@@ -28,7 +31,7 @@ const NavCartContainer = () => {
             src={carrito}
             alt="carrito de compras"
           />
-          <p className={style.cantidad_carrito}>0</p>
+          <p className={style.cantidad_carrito}>{getTotalProductos()}</p>
         </span>
       </div>
     </div>
