@@ -53,3 +53,14 @@
     }
   }
 }
+
+.not_found_products{
+  text-align: center;
+  font-size: 3rem;
+  align-content: center;
+  height: 100vh;
+}
+
+.productosFiltrados{
+  min-height: 100vh;
+}
