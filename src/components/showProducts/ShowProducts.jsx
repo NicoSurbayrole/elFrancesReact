@@ -1,14 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import style from "./showProducts.module.css";
-
-const ShowProducts = ({ items }) => {
+const ShowProducts = ({ items }) => { 
   const navigate = useNavigate();
 
   const singleProduct = (e) => navigate(`/producto/${e.target.accessKey}`);
    
 
-  return items.map((item) => (
-    <div key={item.product_id}>
+  return  (
+    !items ? <p className={style.not_found_products}>No se encontraron productos</p> :
+    items.map((item) => (
+    <div key={item.product_id} className={items.length < 12 ? style.productosFiltrados : ""}>
       <section className={style.products}>
         <header>
           <img
@@ -24,7 +25,7 @@ const ShowProducts = ({ items }) => {
         </div>
       </section>
     </div>
-  ));
+  )))
 };
 
 export default ShowProducts;

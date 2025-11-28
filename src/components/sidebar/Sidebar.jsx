@@ -1,6 +1,13 @@
 import style from "./sidebar.module.css";
 
-const Sidebar = () => {
+
+const Sidebar = ({ onFilter }) => {
+
+ const handleCategori = (e) => {
+    const categoria = e.target.innerText.toLowerCase();
+    onFilter(categoria);
+  };
+
   return (
     <div className={style.sidebar_container}>
       <aside>
@@ -10,19 +17,19 @@ const Sidebar = () => {
           </header>
           <nav>
             <ul className={style.nav_list_container}>
-              <li>Todas las Categorias</li>
-              <li>Alfombras</li>
-              <li>Cristaleria</li>
-              <li>muebles</li>
-              <li>Obras de arte</li>
-              <li>Plateria</li>
-              <li>Vajilla</li>
-              <li>Otra</li>
-              <li>Vidrios Firmados</li>
-              <li>Iluminacion</li>
-              <li>Esculturas</li>
-              <li>Sillas y Sillones</li>
-              <li>Relojes</li>
+              <li onClick={handleCategori}>Todas las Categorias</li>
+              <li onClick={handleCategori}>Alfombras</li>
+              <li onClick={handleCategori}>Cristaleria</li>
+              <li onClick={handleCategori}>muebles</li>
+              <li onClick={handleCategori}>Obras de arte</li>
+              <li onClick={handleCategori}>Plateria</li>
+              <li onClick={handleCategori}>Vajilla</li>
+              <li onClick={handleCategori}>Otra</li>
+              <li onClick={handleCategori}>Vidrios Firmados</li>
+              <li onClick={handleCategori}>Iluminacion</li>
+              <li onClick={handleCategori}>Esculturas</li>
+              <li onClick={handleCategori}>Sillas y Sillones</li>
+              <li onClick={handleCategori}>Relojes</li>
             </ul>
           </nav>
         </div>
