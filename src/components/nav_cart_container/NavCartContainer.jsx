@@ -2,9 +2,11 @@ import serch from "../../assets/serch.svg";
 import carrito from "../../assets/carrito.svg";
 import style from "./navCartContainer.module.css";
 import {useCart} from "../../context/cart/useCart";
+import { useNavigate } from "react-router-dom";
 
 const NavCartContainer = () => {
   const {getTotalProductos} = useCart();
+  const navigate = useNavigate()
 
   return (
     <div>
@@ -25,7 +27,7 @@ const NavCartContainer = () => {
             />
           </label>
         </span>
-        <span className={style.span_carrito}>
+        <span onClick={() =>navigate("/carrito")} className={style.span_carrito}>
           <img
             className={style.carrito}
             src={carrito}
