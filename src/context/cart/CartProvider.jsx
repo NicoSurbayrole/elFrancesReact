@@ -29,8 +29,10 @@ const CartProvider = ({ children }) => {
       return productoCarrito
     }
 
+    const getAllCartProducts = () => cartCount;
+
   return (
-    <CartContext.Provider value={{ getTotalProductos, addToCart, getProductFiltrado }}>
+    <CartContext.Provider value={{ getTotalProductos, addToCart, getProductFiltrado, getAllCartProducts }}>
       {children}
     </CartContext.Provider>
   );
