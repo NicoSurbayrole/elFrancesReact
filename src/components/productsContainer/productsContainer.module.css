@@ -15,6 +15,7 @@
 .products_contain {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  padding: 4rem;
+  gap: 1rem;
+  padding:  3rem 4rem 4rem 4rem;
 }
+

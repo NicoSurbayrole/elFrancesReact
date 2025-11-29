@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="64" height="64">
+    <!-- Círculo de fondo -->
+    <circle cx="32" cy="32" r="30" fill="#444444" />
+
+    <!-- Logo "f" -->
+    <path fill="#FFFFFF"
+        d="M36 18h-3.2c-4.9 0-8.1 3.2-8.1 8.2v3.8H21v6h3.7V46h6.2V36h4.8l1-6h-5.8v-3.2c0-1.6.5-2.7 2.7-2.7H36V18z" />
+</svg>
